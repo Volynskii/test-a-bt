@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07909f4e-6dbc-42d6-b8fb-d4c79c807a10" name="Default Changelist" comment="" />
+    <list default="true" id="07909f4e-6dbc-42d6-b8fb-d4c79c807a10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/select.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +17,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="25H1yt3SBUffxErqYDL4sRM266L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/test" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -60,11 +67,22 @@
       <option name="presentableId" value="Default" />
       <updated>1645169455306</updated>
       <workItem from="1645169456405" duration="14271000" />
-      <workItem from="1645251851056" duration="7343000" />
+      <workItem from="1645251851056" duration="15302000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

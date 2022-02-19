@@ -3,8 +3,7 @@ import data from "../mocks/data";
 function Functions() {
     const task11Result = (animals) => {
         const handleFindTypeLength = (type) => {
-            let result = animals.filter(it => it.type === type).length;
-            return result;
+            return animals.filter(it => it.type === type).length;
         };
         let dogsLength = handleFindTypeLength('dog');
         let catsLength = handleFindTypeLength('cat');
@@ -12,17 +11,14 @@ function Functions() {
         const agesSum = animals.map(it => it.age).reduce(
             (previousValue, currentValue) => previousValue + currentValue, 0);
         let avgAge = Math.round(agesSum / allAges.length);
-        const result = {dogs:dogsLength,cats:catsLength,avgage:avgAge};
-        return result;
+        return {dogs: dogsLength, cats: catsLength, avgage: avgAge};
     };
 
     console.log(task11Result(data));
 
     const task12Result = (animals) => {
         const breedsAnimals = animals.filter(it => it.breed === true);
-        const blackBreeds = breedsAnimals.filter(it => it.features.includes('black'));
-        const result = blackBreeds;
-        return result;
+        return breedsAnimals.filter(it => it.features.includes('black'));
     };
 
     console.log(task12Result(data));
@@ -30,9 +26,8 @@ function Functions() {
     const task13Result = (animals) => {
         let result = [];
         const findAnimal = (type, color) => {
-            const result = animals.filter(it => it.type === type)
+            return animals.filter(it => it.type === type)
                 .filter(it => it.features.includes(color));
-            return result;
         };
 
         const blackCats = findAnimal('cat', 'black');
@@ -47,8 +42,7 @@ function Functions() {
         let result = [];
 
         const handleFindType = (type) => {
-            let result = animals.filter(it => it.type === type);
-            return result;
+            return animals.filter(it => it.type === type);
         };
         let dogs = handleFindType('dog');
         let cats = handleFindType('cat');
